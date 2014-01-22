@@ -10,13 +10,9 @@ int main(void)
 {
 	int i=0;
 
-	struct book book1;
-	book1.no =1;
-	stcopy(book1.title,"c_pointer");
-	book1.price=2300;
+	struct book book1={01,"c_pointer",2300};
 
-	printf("book1 :No %d, タイトル =%s, price =%d\n",book1.no,book1.title,book1.price);
+	printf("book1 : No=%d,タイトル=%s,値段=%d\n",book1.no,book1.title,book1.price);
 
-	struct book book2={}
-	}
+	return 0;
 }
