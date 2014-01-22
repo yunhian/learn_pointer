@@ -1,13 +1,10 @@
 #include <stdio.h>
-// #include <string.h>
-// #include <stdlib.h>
-// #include <ctype.h>
 
 int main(void)
 {
 	int foo = 5;
 	int bar = 10;
-	int *foo_p;
+	int *foo_p= NULL;
 
 	/*変数アドレス表示*/
 	printf("&foo = %p\n",&foo);
